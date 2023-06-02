@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { decrement, increment, initPervState } from '../../../store/counterSlice';
 import { stateOfAlbumsArray, stateOfPhotosArray } from '../../../store/apiSlice';
-import styles from './photosPage.module.css';
+import styles from './photosPage.module.scss';
 
 const PhotosPage = () => {
   const params = useParams();
