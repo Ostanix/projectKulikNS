@@ -3,7 +3,7 @@ import usersApi from '../../../api/usersApi';
 import CardsList from '../../ui/cardsList/cardsList';
 import { stateOfCardsArray } from '../../../store/apiSlice';
 import { useSelector, useDispatch } from 'react-redux';
-import styles from './mainPage.module.css';
+import styles from './mainPage.module.scss';
 
 const MainPage = () => {
   const dispatch = useDispatch();

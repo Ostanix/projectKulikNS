@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import styles from './cardsList.module.css';
+import styles from './cardsList.module.scss';
 
 const CardsList = ({ ...card }) => {
   const [hovered, setHovered] = useState(false);
