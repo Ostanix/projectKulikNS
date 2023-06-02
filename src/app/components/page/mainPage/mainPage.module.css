@@ -1,0 +1,14 @@
+.main {
+  border-radius: 30px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 5rem;
+  grid-gap: 1rem;
+}
+
+.article {
+  list-style: none;
+  padding: 1rem;
+  border: 2px solid rgb(13, 92, 42);
+}
